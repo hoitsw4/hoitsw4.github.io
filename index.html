@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Pundreek Pandey – Senior .NET & React/Angular Developer (Freelance)</title>
+<meta name="description" content="Senior software developer with 5 years of experience in ASP.NET Core MVC, Web API, Angular and React. Available for freelance projects.">
+<link href="https://fonts.googleapis.com/css2?family=Sora:wght@500;700;800&family=Source+Sans+3:wght@400;600&display=swap" rel="stylesheet">
+<style>
+:root{color-scheme:dark;--bg:#060b16;--card:rgba(16,25,44,.68);--ink:#eef2fb;--mut:#a3b2cc;--line:rgba(124,155,255,.2);--pri:#7c9bff;--priT:rgba(124,155,255,.15);--mint:rgba(60,220,170,.18);--term:rgba(6,11,22,.78);
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+#bg{position:fixed;inset:0;width:100%;height:100%;z-index:0;display:block}
+nav,main,footer{position:relative;z-index:1}
+.card,.stats,.sk span,.term{backdrop-filter:blur(10px);-webkit-backdrop-filter:blur(10px)}
+.tilt{transform-style:preserve-3d;transition:transform .18s ease-out;will-change:transform}
+@keyframes in{from{opacity:0;transform:translateY(24px)}to{opacity:1;transform:none}}
+.hero>div:first-child{animation:in 1s cubic-bezier(.2,.7,.2,1) both}
+.card:hover{border-color:var(--pri)}
+.scroll{position:absolute;left:50%;bottom:18px;transform:translateX(-50%);color:var(--mut);font-size:13px;text-decoration:none}
+html{scroll-behavior:smooth;scroll-padding-top:70px}*{box-sizing:border-box}
+body{margin:0;background:var(--bg);overflow-x:hidden;color:var(--ink);font:400 17px/1.6 "Source Sans 3",system-ui,sans-serif}
+h1,h2,h3{font-family:Sora,system-ui,sans-serif;letter-spacing:-.02em;line-height:1.15;margin:0}
+a{color:inherit}a:focus-visible,button:focus-visible,input:focus-visible,textarea:focus-visible,select:focus-visible{outline:3px solid var(--pri);outline-offset:3px}
+.w{max-width:1360px;margin:auto;padding:0 20px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:10;background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+nav .w{display:flex;align-items:center;justify-content:space-between;height:60px}
+.brand{font:800 18px Sora,sans-serif;text-decoration:none}
+nav ul{display:flex;gap:22px;list-style:none;margin:0;padding:0;font-weight:600}nav li a{text-decoration:none;color:var(--mut)}nav li a:hover{color:var(--ink)}
+.btn{display:inline-flex;align-items:center;gap:8px;padding:12px 22px;border-radius:10px;font:700 15px Sora,sans-serif;text-decoration:none;border:2px solid var(--pri);cursor:pointer}
+.btn.p{background:var(--pri);color:#071022}.btn.p:hover{filter:brightness(1.1)}.btn.s{color:var(--pri);background:transparent}
+
+.hero{min-height:calc(100svh - 60px);padding:40px 0;display:grid;grid-template-columns:1.1fr .9fr;gap:40px;align-items:center}
+.pill{display:inline-flex;gap:8px;align-items:center;background:var(--mint);padding:6px 14px;border-radius:99px;font-weight:600;font-size:14px}
+.pill i{width:9px;height:9px;border-radius:50%;background:#16a34a;animation:pulse 2s infinite}
+@keyframes pulse{50%{opacity:.35}}
+h1{font-size:clamp(36px,6.4vw,76px);margin:18px 0 14px;font-weight:800}
+.lead{color:var(--mut);font-size:19px;max-width:54ch;margin:0 0 26px}
+.cta{display:flex;flex-wrap:wrap;gap:12px}
+.term{background:var(--term);color:#d7e3ff;border-radius:16px;padding:20px 22px;font:14px/1.7 ui-monospace,Menlo,Consolas,monospace;box-shadow:0 18px 40px -20px rgba(13,27,42,.5)}
+.term .d{display:flex;gap:6px;margin-bottom:12px}.term .d b{width:11px;height:11px;border-radius:50%;background:#3b4a68}
+.k{color:#8fb0ff}.v{color:#9be7c4}.c{color:#7e8da9}
+.stats{display:grid;grid-template-columns:repeat(4,1fr);border:1px solid var(--line);border-radius:16px;background:var(--card);overflow:hidden}
+.stats div{padding:20px;border-right:1px solid var(--line)}.stats div:last-child{border:0}
+.stats b{display:block;font:800 28px Sora,sans-serif}.stats span{color:var(--mut);font-size:15px}
+section{padding:68px 0}h2{font-size:clamp(26px,4vw,36px);margin-bottom:10px}.sub{color:var(--mut);margin:0 0 32px;max-width:60ch}
+.g3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.g2{display:grid;grid-template-columns:repeat(2,1fr);gap:16px}
+.card{background:var(--card);border:1px solid var(--line);border-radius:16px;padding:24px}
+.card h3{font-size:18px;margin-bottom:8px}.card p{margin:0;color:var(--mut)}
+.ic{font-size:26px;width:48px;height:48px;border-radius:12px;background:var(--priT);display:grid;place-items:center;margin-bottom:14px}
+.tags{display:flex;flex-wrap:wrap;gap:8px;margin-top:14px}.tags span{background:var(--priT);color:var(--pri);padding:3px 11px;border-radius:99px;font-size:14px;font-weight:600}
+.sk{display:flex;flex-wrap:wrap;gap:10px}.sk span{background:var(--card);border:1px solid var(--line);padding:9px 16px;border-radius:10px;font-weight:600}
+.steps{counter-reset:s;display:grid;grid-template-columns:repeat(4,1fr);gap:16px}
+.steps div{border-top:3px solid var(--pri);padding-top:14px}.steps div:before{counter-increment:s;content:"Step " counter(s);font:700 13px Sora;color:var(--pri)}
+.steps h3{font-size:17px;margin:4px 0 6px}.steps p{margin:0;color:var(--mut);font-size:15px}
+.contact{background:var(--term);color:#eef2fb;border-radius:24px;padding:44px;display:grid;grid-template-columns:1fr 1fr;gap:36px}
+.contact h2{color:#fff}.contact p{color:#b6c3dc}
+.ln{display:block;font:700 22px Sora;color:#fff;text-decoration:none;margin:6px 0 16px}
+label{display:block;font-weight:600;font-size:14px;margin:12px 0 4px;color:#d7e3ff}
+input,select,textarea{width:100%;font:inherit;padding:11px 13px;border-radius:10px;border:1px solid #33425f;background:#0f1a2e;color:#fff}
+.contact .btn.p{background:#fff;color:#0d1b2a;border-color:#fff;margin-top:16px;width:100%;justify-content:center}
+.err{color:#ffb4a8;font-size:14px;min-height:20px;margin-top:6px}
+footer{text-align:center;color:var(--mut);padding:32px 20px 48px;font-size:15px}
+@media(max-width:860px){.hero,.contact,.g3,.g2,.steps{grid-template-columns:1fr}.stats{grid-template-columns:1fr 1fr}.stats div:nth-child(2){border-right:0}.stats div:nth-child(-n+2){border-bottom:1px solid var(--line)}nav ul{display:none}.contact{padding:28px}.hero{padding-top:40px}}
+@media(prefers-reduced-motion:reduce){*{animation:none!important;scroll-behavior:auto!important}}
+</style>
+</head>
+<body>
+<canvas id="bg" aria-hidden="true"></canvas>
+<nav><div class="w"><a class="brand" href="#top">Pundreek Pandey</a>
+<ul><li><a href="#services">Services</a></li><li><a href="#skills">Skills</a></li><li><a href="#work">Work</a></li><li><a href="#process">Process</a></li></ul>
+<a class="btn p" href="#contact" style="padding:9px 18px">Hire me</a></div></nav>
+
+<main id="top">
+<div class="w hero">
+  <div>
+    <span class="pill"><i></i>Available for freelance projects</span>
+    <h1>Senior .NET developer who ships reliable web apps.</h1>
+    <p class="lead">I'm Pundreek Pandey, a software developer with 5 years of experience building business applications with ASP.NET Core, Web API, Angular and React. I help startups and companies turn requirements into fast, secure, maintainable software.</p>
+    <div class="cta"><a class="btn p" href="#contact">Start a project</a><a class="btn s" href="tel:+918933852843">Call 8933852843</a></div>
+  </div>
+  <div class="term" aria-hidden="true"><div class="d"><b></b><b></b><b></b></div>
+<span class="c">// GET /developer/pundreek</span><br>{<br>&nbsp;&nbsp;<span class="k">"role"</span>: <span class="v">"Senior Software Developer"</span>,<br>&nbsp;&nbsp;<span class="k">"experience"</span>: <span class="v">"5 years"</span>,<br>&nbsp;&nbsp;<span class="k">"backend"</span>: [<span class="v">"ASP.NET Core MVC"</span>, <span class="v">"Web API"</span>],<br>&nbsp;&nbsp;<span class="k">"frontend"</span>: [<span class="v">"Angular"</span>, <span class="v">"React"</span>],<br>&nbsp;&nbsp;<span class="k">"freelance"</span>: <span class="v">true</span>,<br>&nbsp;&nbsp;<span class="k">"reply_time"</span>: <span class="v">"within 24 hours"</span><br>}</div>
+</div>
+
+<div class="w"><div class="stats">
+<div><b>5+</b><span>Years of experience</span></div><div><b>ERP</b><span>Enterprise systems built</span></div><div><b>Full-stack</b><span>API to UI, end to end</span></div><div><b>24 h</b><span>Reply to every inquiry</span></div></div></div>
+
+<section id="services"><div class="w"><h2>What I can build for you</h2><p class="sub">Clear scope, clean code and regular updates, from a small fix to a complete product.</p>
+<div class="g3">
+<div class="card"><div class="ic">🌐</div><h3>Web applications</h3><p>Business portals, dashboards and admin panels with ASP.NET Core MVC and a responsive UI.</p></div>
+<div class="card"><div class="ic">🔌</div><h3>REST APIs and integrations</h3><p>Secure Web APIs with authentication, validation, documentation and third-party integrations.</p></div>
+<div class="card"><div class="ic">⚛️</div><h3>Angular and React front ends</h3><p>Fast single-page apps with reusable components, state management and API-connected screens.</p></div>
+<div class="card"><div class="ic">🏭</div><h3>ERP and workflow systems</h3><p>Order, inventory, billing, tracking and reporting systems built on SQL Server.</p></div>
+<div class="card"><div class="ic">🛠️</div><h3>Legacy modernization</h3><p>Move old .NET or desktop applications to modern ASP.NET Core without losing your data.</p></div>
+<div class="card"><div class="ic">🧹</div><h3>Code review and bug fixing</h3><p>Performance tuning, SQL query optimization and fixes for stuck or unstable projects.</p></div>
+</div></div></section>
+
+<section id="skills" style="padding-top:0"><div class="w"><h2>Skills and tools</h2><p class="sub">The stack I use every day.</p>
+<div class="sk"><span>ASP.NET Core MVC</span><span>ASP.NET Web API</span><span>C#</span><span>Entity Framework</span><span>SQL Server</span><span>Angular</span><span>React.js</span><span>TypeScript</span><span>JavaScript</span><span>HTML5 and CSS3</span><span>Bootstrap</span><span>JWT authentication</span><span>Git</span></div></div></section>
+
+<section id="work" style="padding-top:0"><div class="w"><h2>Selected work</h2><p class="sub">Types of projects I have delivered. Client names are kept private.</p>
+<div class="g2">
+<div class="card"><h3>Pharma ERP platform</h3><p>Large web ERP for a pharmaceutical manufacturer, covering sales, dispatch and reporting for many internal users.</p><div class="tags"><span>ASP.NET Core</span><span>SQL Server</span><span>React</span></div></div>
+<div class="card"><h3>Shipment and order tracking app</h3><p>Customer-facing tracking portal that shows sale order and shipment status in real time.</p><div class="tags"><span>ASP.NET Core MVC</span><span>Web API</span></div></div>
+<div class="card"><h3>Legacy system modernization</h3><p>Planning and moving a Visual Basic application to a modern web-based architecture.</p><div class="tags"><span>Migration</span><span>.NET</span></div></div>
+<div class="card"><h3>Medicine delivery app</h3><p>Quick-commerce style ordering with cart, prescription upload, checkout and live order tracking.</p><div class="tags"><span>HTML</span><span>CSS</span><span>JavaScript</span></div></div>
+</div></div></section>
+
+<section id="process" style="padding-top:0"><div class="w"><h2>How we will work together</h2><p class="sub">A simple process so you always know where the project stands.</p>
+<div class="steps"><div><h3>Discuss</h3><p>Share your idea on call or WhatsApp. I ask the right questions.</p></div><div><h3>Plan</h3><p>You get a scope, timeline and cost before work begins.</p></div><div><h3>Build</h3><p>Regular demos and updates so there are no surprises.</p></div><div><h3>Deliver</h3><p>Tested code, deployment help and support after launch.</p></div></div></div></section>
+
+<section id="contact" style="padding-top:0"><div class="w"><div class="contact">
+<div><h2>Let's talk about your project</h2><p>Tell me what you need and I will reply within 24 hours with next steps.</p>
+<a class="ln" href="tel:+918933852843">📞 +91 89338 52843</a>
+<a class="ln" href="https://wa.me/918933852843" target="_blank" rel="noopener">💬 Chat on WhatsApp</a></div>
+<form id="f" novalidate>
+<label for="n">Your name</label><input id="n" autocomplete="name">
+<label for="t">Project type</label><select id="t"><option>Web application</option><option>API / integration</option><option>Angular or React front end</option><option>ERP / workflow system</option><option>Bug fix / code review</option><option>Something else</option></select>
+<label for="m">What do you need?</label><textarea id="m" rows="4"></textarea>
+<div class="err" id="e" role="alert"></div>
+<button class="btn p" type="submit">Send on WhatsApp</button></form>
+</div></div></section>
+</main>
+<footer>© <span id="y"></span> Pundreek Pandey · Senior Software Developer · ASP.NET Core, Web API, Angular, React</footer>
+<script>
+document.getElementById("y").textContent=new Date().getFullYear();
+document.getElementById("f").addEventListener("submit",function(ev){
+  ev.preventDefault();
+  var n=document.getElementById("n").value.trim(),m=document.getElementById("m").value.trim(),t=document.getElementById("t").value,e=document.getElementById("e");
+  if(n.length<2||m.length<10){e.textContent="Enter your name and at least a short description of your project.";return}
+  e.textContent="";
+  var msg="Hi Pundreek, I'm "+n+". Project type: "+t+".\n\n"+m;
+  window.open("https://wa.me/918933852843?text="+encodeURIComponent(msg),"_blank","noopener");
+});
+</script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+<script>
+(function(){
+var reduce=matchMedia("(prefers-reduced-motion: reduce)").matches,fine=matchMedia("(pointer:fine)").matches;
+if(fine&&!reduce)document.querySelectorAll(".card,.term").forEach(function(el){
+  el.classList.add("tilt");
+  el.addEventListener("mousemove",function(e){var b=el.getBoundingClientRect(),x=(e.clientX-b.left)/b.width-.5,y=(e.clientY-b.top)/b.height-.5;el.style.transform="perspective(800px) rotateX("+(-y*9)+"deg) rotateY("+(x*9)+"deg) translateZ(6px)"});
+  el.addEventListener("mouseleave",function(){el.style.transform=""});
+});
+try{
+if(!window.THREE)return;
+var c=document.getElementById("bg"),R=new THREE.WebGLRenderer({canvas:c,antialias:true,alpha:true});
+R.setPixelRatio(Math.min(devicePixelRatio,2));
+var S=new THREE.Scene(),C=new THREE.PerspectiveCamera(55,1,.1,100);C.position.z=10;
+S.add(new THREE.AmbientLight(0x6677aa,.9));
+var L1=new THREE.PointLight(0x5b7bff,2.2,40);L1.position.set(6,5,8);S.add(L1);
+var L2=new THREE.PointLight(0x3ee0b0,1.6,40);L2.position.set(-7,-4,6);S.add(L2);
+var G=new THREE.Group();S.add(G);
+var ico=new THREE.Mesh(new THREE.IcosahedronGeometry(3.4,1),new THREE.MeshBasicMaterial({color:0x7c9bff,wireframe:true,transparent:true,opacity:.28}));
+var knot=new THREE.Mesh(new THREE.TorusKnotGeometry(1.35,.4,160,18),new THREE.MeshStandardMaterial({color:0x4968ff,metalness:.7,roughness:.25}));
+G.add(ico,knot);
+var orbs=[];
+[[4.6,0x3ee0b0,.9],[5.4,0xffd84d,.7],[6.2,0x7c9bff,.8]].forEach(function(o,i){
+  var piv=new THREE.Group(),m=new THREE.Mesh(new THREE.SphereGeometry(.16+i*.04,20,20),new THREE.MeshBasicMaterial({color:o[1]}));
+  m.position.x=o[0];piv.add(m);piv.rotation.x=i*1.1;piv.rotation.z=i*.7;G.add(piv);orbs.push([piv,o[2]]);
+});
+var n=1500,pos=new Float32Array(n*3);
+for(var i=0;i<n;i++){var r=7+Math.random()*16,a=Math.random()*6.283,b=Math.acos(2*Math.random()-1);pos[i*3]=r*Math.sin(b)*Math.cos(a);pos[i*3+1]=r*Math.sin(b)*Math.sin(a);pos[i*3+2]=r*Math.cos(b)}
+var pg=new THREE.BufferGeometry();pg.setAttribute("position",new THREE.BufferAttribute(pos,3));
+var pts=new THREE.Points(pg,new THREE.PointsMaterial({size:.05,color:0x9bb5ff,transparent:true,opacity:.8}));S.add(pts);
+var mx=0,my=0,sy=0,W=1,H=1;
+function size(){W=innerWidth;H=innerHeight;R.setSize(W,H,false);C.aspect=W/H;C.updateProjectionMatrix()}
+addEventListener("resize",function(){size();draw(0)});size();
+addEventListener("mousemove",function(e){mx=e.clientX/W-.5;my=e.clientY/H-.5});
+addEventListener("scroll",function(){sy=Math.min(scrollY/H,3);if(reduce)draw(0)},{passive:true});
+var t0=performance.now();
+function draw(t){
+  var wide=W>860,base=wide?3.6:0,k=Math.max(0,1-sy*1.1);
+  G.position.x+=((base*k)-G.position.x)*.06;
+  G.position.y+=((-sy*1.5)-G.position.y)*.06;
+  var sc=wide?1:.7;G.scale.setScalar(sc*(1-Math.min(sy,1)*.35));
+  G.rotation.y+=((mx*.9+t*.00012)-G.rotation.y)*.04;
+  G.rotation.x+=((my*.6)-G.rotation.x)*.05;
+  ico.rotation.y=t*.00015;ico.rotation.x=t*.0001;
+  knot.rotation.x=t*.0004;knot.rotation.y=t*.0003;
+  orbs.forEach(function(o){o[0].rotation.y=t*.0006*o[1]});
+  pts.rotation.y=t*.00003+sy*.3;
+  c.style.opacity=Math.max(.3,1-sy*.45);
+  R.render(S,C);
+}
+if(reduce){draw(0)}else{(function loop(now){if(!document.hidden)draw(now-t0);requestAnimationFrame(loop)})(t0)}
+}catch(e){}
+})();
+</script>
+</body>
+</html>
